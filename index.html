@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+
+    <title>Bootstrap Corousel</title>
+</head>
+
+<body>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark position-relative">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Bootstrap Corousel</a>
+                        </li>
+                </div>
+                <div class="box">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Corousel Demos
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Bootstrap Corousel Slider</a></li>
+                            <li><a class="dropdown-item" href="#">Bootstrap Multiple Items Corousel</a></li>
+                            <li><a class="dropdown-item" href="#">Bootstrap Fixed Height Corousel</a></li>
+                            <li><a class="dropdown-item" href="#">Bootstrap Responsive Height Corousel</a></li>
+                            <li><a class="dropdown-item" href="#">Bootstrap Autoplay Corousel Feature</a></li>
+                            <li><a class="dropdown-item" href="#">Bootstrap Fade Corousel Slider </a></li>
+                            <li><a class="dropdown-item" href="#">Bootstrap Thumbnails and Corousel Lightbox</a>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Bootstrap Full width Corousel Slides</a></li>
+                            <li><a class="dropdown-item" href="#">Bootstrap Full Screen Corousel Slides</a></li>
+                            <li><a class="dropdown-item" href="#">Bootstrap Vertical Corousel Slides</a></li>
+                            <li><a class="dropdown-item" href="#">Bootstrap Video Corousel</a></li>
+                </div>
+                </ul>
+                </li>
+                </ul>
+                <button class="btn btn-outline-success" type="download now">DOWNLOAD NOW!</button>
+        </div>
+        </nav>
+    </div>
+    <section>
+        <div class="header">
+            <br>
+            <h1> Bootstrap Corousel Slider</h1>
+            <br>
+            <br>
+            <h2>Create a bootstrap slider without coding for free!</h2>
+            <button class="btnCorousel">Download Corousel</button>
+        </div>
+    </section>
+    <br>
+    <br>
+    <div class="container">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Images/thirdnature.jpg" class="d-block w-100" alt="thirdnature">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, corporis. </h5>
+                        <p>Lorem,ipsum dolor sit amet consectetur adipisicing elit. Ratione, rem. Nesciunt quod nemo
+                            nobis deleniti, esse dolore quos nam laudantium. </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Images/firstnature.jpg" class="d-block w-100" alt="firstnature">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5> Lorem ipsum dolor sit amet.</h5>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, reprehenderit vero aliquid
+                            necessitatibus inventore expedita quod nostrum natus. Repellendus, aspernatur tenetur
+                            molestiae eum facere placeat.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Images/secondnature.jpg" class="d-block w-100" alt="secondnature">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, in. </h5>
+                        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab doloremque expedita incidunt,
+                            repellat, autem nisi rem blanditiis quo veniam facilis ducimus libero sunt soluta quod.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <h3 class="display-6 text-center mt-5 mb-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>
+                Obcaecati, repudiandae dicta. A alias
+                dolorum quibusdam!</h3>
+        </div>
+    </div>
+    <div class="row justify-content-evenly">
+        <div class="col-3 text-center mt-5">
+            <h1> <i class="bi bi-file-code-fill text-primary"></i></h1>
+            <h5>Built For Developers</h5>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, sint quia. Architecto, commodi
+                dolorem nesciunt illum velit modi error maxime?</p>
+        </div>
+        <div class="col-3 text-center mt-5">
+            <h1><i class="bi bi-calendar-range-fill text-danger"></i> </h1>
+            <h5>Built For Developers</h5>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, sint quia. Architecto, commodi
+                dolorem nesciunt illum velit modi error maxime?</p>
+        </div>
+        <div class="col-3 text-center mt-5">
+            <h1><i class="bi bi-archive-fill text-success"></i> </h1>
+            <h5>Built For Developers</h5>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, sint quia. Architecto, commodi
+                dolorem nesciunt illum velit modi error maxime?</p>
+        </div>
+    </div>
+    <!-- contact -->
+    <div class="row justify-content-evenly pt-2 pb-5" style="background-color:#f1f1f1;">
+        <div class="col-md-5">
+            <h3 class="mt-3">Contact Form</h3>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Full Name</label>
+                    <input type="text" class="form-control" id="name">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-success">Submit</button>
+            </form>
+        </div>
+        <div class="col-md-5 mt-5">
+            <h3 class="mb-3">Address</h3>
+            <p> H-375, Ward no-02, Balesra Road,<br> Harkhauli, Mirganj, Gopalganj <br> PIN-(841438) Bihar <br><i
+                    class="bi bi-telephone"></i>+917219904882</p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3574.646176185973!2d84.3354649148709!3d26.370303783364246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3deaf1b9a54eec64!2sMIRGANJ%20MART!5e0!3m2!1sen!2sin!4v1638442874966!5m2!1sen!2sin"
+                style="width:100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="row justify-content-evenly pt-5 pb-5">
+            <div class="col-md-10">
+                <h3 class="text-center pb-4">FAQ</h3>
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne">
+                                Accordion Item #1
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion
+                                body.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                                Accordion Item #2
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion
+                                body. Let's imagine this being filled with some actual content.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                                Accordion Item #3
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion
+                                body. Nothing more exciting happening here in terms of content, but just filling up the
+                                space to make it look, at least at first glance, a bit more representative of how this
+                                would look in a real-world application.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <div class="row justify-content-evenly bg-dark text-white pt-2">
+            <div class="col-md-3 pt-4 text-center">
+                <h5>COMPANY</h5>
+                <p>FAQ <br>
+                    Terms of Use <br>
+                    Privacy Policy <br>
+                    License Agreement <br>
+                    About Us <br>
+                    Partners <br>
+                    Abuse <br>
+                    Contact Support</p>
+            </div>
+            <div class="col-md-3 pt-4 text-center">
+                <h5>PRODUCT</h5>
+                <p>Download <br>
+                    200+ Features<br>
+                    Review <br>
+                    Affiliates<br>
+                    License Agreement <br>
+                    Documentation<br>
+                    Forum<br></p>
+
+
+            </div>
+            <div class="col-md-3 pt-4 text-center">
+                <h5>THEMES AND TEMPLATES</h5>
+                <p>
+                    One Page Templates<br>
+                    Website Templates<br>
+                    WordPress Themes <br>
+                    HTML Templates <br>
+                    Joomla Templates <br>
+                    WooCommerce Themes <br>
+                    HTML5 Templates <br>
+
+            </div>
+            <div class="col-md-3 pt-4 text-center">
+                <h5>NICEPAGE</h5>
+                <p>Website Builder <br>
+                    HTML Website Builder <br>
+                    WordPress Website Builder <br>
+                    Joomla Page Builder <br>
+                    WYSIWYG HTML Editor <br>
+                    Static Site Generator <br>
+                    HTML Code Generator <br></p>
+                </div>
+        </div>
+        <!-- copyright -->
+        <div class="row bg-dark text-white text-center">
+            <div class="col-12">
+                <p>© 2021 Nicepage Free Website Builder Software - All Rights Reserved</p>
+            </div>
+        </div>
+
+
+
+    </div>
+    </div>
+</body>
+
+</html>

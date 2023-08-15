@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+/* CSS reset */
+section{
+    background-color: rgb(235, 92, 92);
+
+}
+.container-fluid {
+    background-color:rgb(236, 79, 79);
+}
+.navbar,navbar-expand-lg navbar-light bg-light{
+    display: flex;
+    flex-direction:row;
+    list-style: none;
+    justify-content: center;
+}
+.navbar li a:hover{
+    border-radius: 5px;
+    background-color:gray;
+}
+.btn{
+        border: 1px solid white;
+        color:black;
+        background-color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+
+}
+button.btn:hover{
+    background-color: rgb(197, 195, 195);
+
+}
+.btnCorousel{
+    border: 1px solid gray;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.box {
+        background-color: #f8f9fa;
+    }
+.header{
+    text-align: center;
+    color: white;
+}
+.container li nav-item dropdown{
+  display: block;
+  float: right;  
+}
+    @media (min-width: 1400px){
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width:1000px;}}
+
+    .carousel-inner{
+    height: 300px;
+    }
+    .item, img{
+        height: 100% !important;
+        width:  100% !important;
+        border: 1px solid red;}
